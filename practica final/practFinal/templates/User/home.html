@@ -1,0 +1,19 @@
+{% extends 'baseYeray.html' %}
+
+{% block header%}
+    <h1>CONSULTA ONLINE</h1>
+ <link rel="stylesheet" type="text/css" href='home.css'>
+    <a class="waves-effect waves-light btn" href="login/">button</a>
+    
+{% endblock %}
+
+{% block navbar %}
+{% include 'Utilities/navbar_User.html' %}
+{% endblock %}
+
+{% block content %}
+    
+    <br>
+        {{request.user}}
+    <p >This is a template</p>
+{% endblock %}

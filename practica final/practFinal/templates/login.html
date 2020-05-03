@@ -1,0 +1,39 @@
+{% extends 'baseYeray.html' %}
+
+{% block content %}
+    
+    <div>
+
+        <a class="waves-effect waves-light btn light-blue lighten-1" onclick="goBack()"><i class="material-icons left">arrow_back</i></a>
+
+        <script>
+            function goBack() {
+              window.history.back();
+            }
+        </script>
+
+
+        <form class="box">
+            <h2>Login</h2>
+            <br>
+            <div class="row">
+                <div class="input-field col s12">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="password" type="password" class="validate">
+                  <label for="password">Password</label>
+                </div>
+              </div>
+
+              <input type="submit" class="waves-effect waves-light btn light-blue lighten-1" value="Login">
+
+        </form>
+    </div>
+
+
+{% endblock %}
