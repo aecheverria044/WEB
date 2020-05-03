@@ -1,3 +1,9 @@
-p{ 
-  background-color: #29b6f6;
+main{
+  width: 300px;
+  height: 236px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -118px; /* 50% del alto*/
+  margin-left: -150px; /* 50% del ancho */
 }
