@@ -14,7 +14,8 @@ def home_view(request):
     my_context = {
        "my_text": "This is about us"
     } 
-    return render(request, "index.html", my_context)
+    #return render(request, "index.html", my_context)
+    return render(request, "prueba.html")
 def user_detail_view(request):
     obj = usuario.objects.get(id=1)
     context = {
