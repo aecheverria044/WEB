@@ -20,6 +20,8 @@ from apps.usuario.views import contacto
 from apps.usuario.views import user_detail_view
 from apps.usuario.views import user_create_view
 from apps.usuario.views import login
+
+
 urlpatterns = [
    path('',home_view, name="home_view"),
     path('home/',home_view, name="home_view"),
